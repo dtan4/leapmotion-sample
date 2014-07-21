@@ -1,1 +1,3 @@
-console.log "Hello, world!"
+output = $("#output")
+Leap.loop (frame) ->
+  output.html("Frame: #{frame.id}")
